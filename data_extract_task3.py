@@ -116,7 +116,7 @@ for x in range(1, 2):
         
 
 
-engine = db.create_engine('mysql://root:24M@y!996@localhost/gensdeconfiance', echo=True, convert_unicode=False, encoding="utf-8")
+engine = db.create_engine('mysql://root:root@localhost/gensdeconfiance', echo=True, convert_unicode=False, encoding="utf-8")
 Base = declarative_base()
 
 class RoomDetails(Base):
