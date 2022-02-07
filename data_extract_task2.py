@@ -26,7 +26,7 @@ def insertVariblesIntoTable(company_title, company_logo, url, description, produ
         mydb = mysql.connector.connect(
           host="localhost",
           user="root",
-          password="24M@y!996",
+          password="root",
           database="data_extraction",
           auth_plugin='mysql_native_password'
         )
